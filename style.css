@@ -1,0 +1,165 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(blood-b-2.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+}
+.navbar .logo{
+	width: 60px;
+	height: auto;
+	padding: 10px 20px;
+	float: left;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+	font-weight: bold;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: red;
+	border-radius: 7px;
+}
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color: white;
+	font-size: 50px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+.buttons #atext{
+	text-align: center;
+	color: #ffffff;
+	background-color: rgba(0, 0, 0, 0.59);
+	border-radius: 10px;
+	margin-top: 20px;
+	padding: 5px;
+	font-weight: bolder;
+	font-size: 20px;
+	font-family: monospace;
+}
+.center h2{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 885px;
+	text-align: center;
+}
+.center .buttons{
+	margin: 35px 280px;
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffb3b3;
+	background: red;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #cc0000;
+	border-radius: 25px;
+	transition: .4s;
+}
+.buttons .btn2{
+	margin-left: 25px;
+}
+.buttons button:hover{
+	background: #cc0000;
+}
+.regform h2{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 885px;
+	text-align: center;
+}
+table p{
+	color: red;
+	font-size: 19px;
+	font-weight: bolder;
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+}
+table td{
+	margin: 5px;
+	padding: 5px;
+	color: white;
+}
+table select{
+	font-weight: bold;
+	margin-left: 30px;
+	border-radius: 6px;
+}
+table td .but{
+	margin-right: 30px;
+}	
+table td button{
+	background-color: red;
+	color: white;
+	padding: 5px;
+	font-weight: bolder;
+	border-radius: 8px;
+	cursor: pointer;
+}
+table td input{
+	border-radius: 4px;
+	padding: 3px;
+}
+.tab{
+	padding: 150px;
+	color: #ffffff;
+	text-align: center;
+}
+.tab td{
+	padding: 3px;
+}
+.tab th{
+	background-color: rgb(126, 124, 226);
+	padding: 3px;
+	color: black;
+	font-weight: bold;
+}
+.tab a{
+	text-decoration: none;
+	color: white;
+	background-color: #e02626;
+	border-radius: 3px;
+	padding: 5px;
+	font-weight: bolder;
+}
